@@ -1,0 +1,130 @@
+.popup-ariandi {
+        display: none;
+        background: rgba(0,0,0,0.5);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999999;
+    }
+    .close-alex-mt {
+        background: #000;
+         width: 20px;
+        height: 20px;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        border: 1.5px solid #fff;
+        position: absolute;
+        top: -8px;
+        right: -10px;
+        display: block;
+    }
+    .close-alex-mt i {
+        color: #fff;
+        padding-top: 1px;
+    }
+    .container-box-mt {
+        background: #211f36; 
+        border: 1px solid #fff;
+        max-width: 330px;
+        height: auto;
+        position: relative;
+        margin: 50px auto;
+        margin-top: 1.9%;
+        text-align: center;
+        font-family: system-ui;
+        color: #000;
+        border-radius: 10px;
+    }
+    .isi-mt {
+        width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .isi-mt .kaget {
+        display: none;
+        left: -15px;
+        position: relative;
+        width: 330px;
+        padding: 5px;
+        background: red;
+        color:#fff;
+        font-size: 13px;
+        font-family: system-ui;
+    }
+    .label-mt {
+    	display: block;
+    }
+    .txt-ucapan-mt {
+        width: 270px;
+        height: auto;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 17px;
+        padding: 8px;
+        color: #90949c;
+        text-align: center;
+        display: block;
+        font-family: arial;
+        font-size: 1.5em; 
+        font-weight: 700; color: #a9aed5;
+    }
+    .input-form-mt {
+    width: 100%; 
+    line-height: .44978rem; 
+    height: 3.5em; 
+    padding-left: .14993rem; 
+    padding-right: .14993rem; 
+    background-color: #090a10; 
+    border: 1px solid #36445d; 
+    border-radius: 0.533433rem; 
+    display: block;
+    text-align: center; 
+    font-size: 100%; 
+    vertical-align: baseline; 
+    font-family: arial; 
+    margin-bottom: 20px; 
+    text-align: left; 
+    color: #fff;
+    }
+    .btn-login-mt {
+    	background-color: rgb(65, 239, 108); 
+        width: 60%; 
+        height: 50px; 
+        color: #000;
+	    margin-top: 10px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    padding: 10px;
+	    font-size: 14px;
+	    font-family: system-ui;
+	    font-weight: bold;
+	    text-align: center;
+	    text-shadow: 1px 0px rgba(0, 0, 0, 0.3);
+	    border: 1px solid #3578e5;
+	    border-radius: 5px;
+	    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+	    outline: none;
+	    display: block;
+    }
+    .quotes-mt{
+    color: #a9aed5; 
+    text-align: left; 
+    margin-top: 10px; 
+    margin-bottom: 50px;
+    }
+    .kagetmt {
+    display: none;
+    color: red;
+    text-align: left;
+    font-family: system-ui;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: -20px;
+    }
