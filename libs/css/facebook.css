@@ -1,16 +1,26 @@
 .navbar-fb {
 	background: #3b5998;
+	width: 100%;
 	height: auto;
-	width:100%;
 	padding: 8px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
 }
 .navbar-fb img {
-    width: 115PX;
+    width: 115px;
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+.fb-alert {
+	background: #fa3e3e;
+	width: 100%;
+	height: auto;
+	padding: 5px;
+	color: #fff;
+	font-size: 15px;
+	font-family: Roboto;
+	text-align: left;
 }
 .content-box-fb {
     width: 300px;
@@ -20,15 +30,30 @@
     display: block;
 }
 .content-box-fb img {
-    width: 60;
+    width: 60px;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 12px;
     display: block;
 }
+.content-box-fb .kaget {
+    display: none;    
+    position: relative;
+    left:-10px;
+    width: 300px;
+    padding: 5px;
+    background: #FFECE8;
+    border: 2px solid #E76847;
+    color:#000;
+    font-size: 13px;
+    font-family: system-ui;
+    float:center;
+    margin-left: auto;
+    margin-right: auto;
+}
 .txt-login-fb {
-    width: 290px;
+    width: 270px;
     height: auto;
     margin-top: 10px;
     margin-left: auto;
@@ -37,46 +62,64 @@
     padding: 8px;
     color: #90949c;
     font-size: 16px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     text-align: center;
     display: block;
+}    
+.form-group-fb {
+	width: 100%;
+	height: auto;
+
 }
-.login-form input[type="text"],.login-form input[type="password"] {
+.form-group-fb input {
 	width: 100%;
 	height: auto;
 	padding: 12px;
 	color: #000;
 	font-size: 14px;
 	font-weight: 400;
-	font-family: 'Lato',sans-serif;
+	font-family: Roboto, sans-serif;
 	border: 1px solid #bdbebf;
 	cursor: pointer;
 	outline: none;
 }
-.login-form input[type="text"] {
-    margin: 0;
-    padding-bottom: 13px;
-	border-bottom: none;
-	border-radius: 4px 4px 0 0;
-	box-shadow: 0 -1px 0 #E0E0E0 inset,0 0px 0px rgba(0,0,0,0.23) inset;
+.form-group-fb input:nth-child(1) {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
 }
-.login-form input[type="password"] {
-    margin: 0;
-	border-top: none;
-	border-radius: 0 0 4px 4px;
-	box-shadow: 0 -0px 0 rgba(0,0,0,0.23) inset,0 0px 0px rgba(255,255,255,0.1);
+.form-group-fb input:nth-last-child(1) {
+	border-top: 0px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.form-group-fb .login-form-shid {
+	width: 70px;
+	height: auto;
+	margin-left: 68%;
+	margin-top: 0%;
+	padding: 11px;
+	color: #1778f2;
+	font-size: 14px;
+	font-family: Roboto;
+	text-align: center;
+	text-transform: uppercase;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	position: absolute;
+	z-index: 9999999;
+	cursor: pointer;
 }
 .btn-login-fb {
 	background: #1778f2;
 	width: 100%;
 	height: auto;
-	margin-top: 10px;
-	margin-left: auto;
+	margin-top: 20px;
 	margin-right: auto;
+	margin-bottom: 10px;
 	padding: 10px;
 	color: #fff;
 	font-size: 14px;
-	font-family: Roboto;
+	font-family: Roboto, sans-serif;
 	font-weight: bold;
 	text-align: center;
 	text-shadow: 1px 0px rgba(0, 0, 0, 0.3);
@@ -87,13 +130,12 @@
 	display: block;
 }
 .txt-create-account {
-    margin-top: 4px;
     width: 100%;
     height: auto;
     padding: 5px;
     color: #3b5998;
     font-size: 13.5px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     text-align: center;
 }
 .txt-not-now {
@@ -102,7 +144,7 @@
     padding: 5px;
     color: #3b5998;
     font-size: 13.5px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     text-align: center;
 }
 .txt-forgotten-password {
@@ -112,7 +154,7 @@
     padding: 5px;
     color: #7596c8;
     font-size: 13.5px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     text-align: center;
 }
 .language-box {
@@ -120,6 +162,7 @@
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -10px;
     display: block;
 }
 .language-name {
@@ -129,7 +172,7 @@
     margin-bottom: 0px;
     color: #3b5998;
     font-size: 12px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     text-align: center;
     display: inline-block;
 }
@@ -152,29 +195,18 @@
     margin-right: auto;
     color: #90949c;
     font-size: 12px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     text-align: center;
     display: block;
 }
-.popup-login {
-    background:rgba(0,0,0,0.5);
-    width:100%;
-    height:100%;
-    position:fixed;
-    top:0;
-    left:0;
-    z-index: 999999999999999999;
+.form-group-sohid {
+	width: 45px;
+	height: auto;
+	margin-left: 76%;
+	position: absolute;
+	z-index: 9999999;	
 }
-.popup-box-login-fb {
-    background:#ECEFF6;
-    max-width:330px;
-    height:auto;
-    position:relative;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    text-align:center;
-    font-family:'Teko';
-    color:#000;
-    border-radius:10px;
+.form-group-sohid img {
+	width: 22px;
+	margin-top: 10px;
 }

@@ -1,0 +1,810 @@
+body {
+  margin: 0px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.containeralex {
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/maxoffical/bg_news.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.headeralex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background: #00000073;
+}
+
+.logomax {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-block: 10px;
+  margin-left: 10px;
+}
+
+.logomax img {
+  height: 40px;
+  width: auto;
+}
+
+.downmax {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-block: 10px;
+  margin-right: 10px;
+}
+
+.downmax img {
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.downmax img:hover {
+  border: 1px solid #fff;
+}
+
+.banneralex {
+  padding: 5px 20px;
+}
+
+.mySlides {
+  display: none;
+  border: 2px solid #f4b93f;
+}
+
+.w3-left,
+.w3-right,
+.w3-badge {
+  cursor: pointer
+}
+
+.w3-badge {
+  height: 5px;
+  width: 40px;
+  padding: 0;
+  border-radius: 5px !important;
+}
+
+.w3-white {
+  background: #fde346 !important;
+}
+
+.w3-border {
+  border: 1px solid #fde346 !important;
+}
+
+.subbanneralex {
+  background: #00000038;
+}
+
+.boxsubbaner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0px;
+}
+
+.boxsubbaner img {
+  width: 65%;
+}
+
+.arrowbanner {
+  width: 35px;
+  height: 35px;
+}
+
+.leftalex {
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/maxoffical/v4/swiper_light.png) no-repeat center;
+  background-size: 100% 100%;
+  margin-right: 10px;
+  transform: scaleX(-1);
+}
+
+.rightalex {
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/maxoffical/v4/swiper_light.png) no-repeat center;
+  background-size: 100% 100%;
+  margin-left: 10px;
+}
+
+.leftalex:hover {
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/maxoffical/v4/swiper_dark.png) no-repeat center;
+  background-size: 100% 100%;
+  margin-right: 10px;
+  transform: scaleX(-1);
+}
+
+.rightalex:hover {
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/maxoffical/v4/swiper_dark.png) no-repeat center;
+  background-size: 100% 100%;
+  margin-left: 10px;
+}
+
+.boxisialex {
+  padding: 5px 10px 3em 10px;
+}
+
+.isialex {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.itemalex {
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/maxoffical/brushed_metal.jpg);
+  border: 2px solid #e0b73a;
+  display: inline-grid;
+  align-content: center;
+  width: 110px;
+  justify-items: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.imgalex {
+  width: 90px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.imgalex img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.itemalex button {
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/maxoffical/redirect_2.png) no-repeat center;
+  background-size: 115% 140%;
+  font-size: 18px;
+  line-height: 25px;
+  filter: drop-shadow(0px 0px 20px black);
+  color: #000;
+}
+
+.itemalex button:hover {
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/maxoffical/redirect_1.png) no-repeat center;
+  background-size: 115% 140%;
+  color: #fff;
+}
+
+.menualex {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+.boxmenu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  background: #000;
+}
+
+.itemmenu {
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/maxoffical/redirect_1.png) no-repeat center;
+  background-size: 115% 140%;
+  text-align: center;
+  padding: 5px 0px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 25%;
+  color: #fff;
+}
+
+.itemmenu img {
+  width: 25px;
+  height: 25px;
+}
+
+.activealex {
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/maxoffical/redirect_2.png) no-repeat center;
+  background-size: 115% 140%;
+  color: #000;
+}
+
+.slide-in-bottom {
+  -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(1000px);
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(1000px);
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.popalex {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #000000b3;
+  z-index: 2;
+}
+
+.contboxalex {
+  background: url(./2.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 85%;
+  margin: 63% auto;
+  padding: 10px 15px;
+}
+
+.trueidalex {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.trueidalex h1 {
+  font-size: 25px;
+  font-weight: 700;
+  filter: drop-shadow(0px 0px 9px gold);
+  color: #000;
+}
+
+.formtrueid {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 90%;
+}
+
+.formtrueid input {
+  color: #000;
+  outline: none;
+  border: 2px solid #afa400;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+
+.formtrueid span {
+  color: #fff;
+  text-shadow: 0 0 7px black;
+  font-size: 18px;
+  display: none;
+}
+
+.btntrueid {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btntrueid button {
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/maxoffical/redirect_1.png) no-repeat center;
+  background-size: 150% 150%;
+  border: none;
+  line-height: 37px;
+  padding: 0px 30px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.conttoats {
+  background: url(../img/menu/4.png) no-repeat center;
+  background-size: 100% 100%;
+  text-align: center;
+  width: 80%;
+  margin: 80% auto;
+}
+
+.conttoats p {
+  font-size: 19px;
+  line-height: 75px;
+  color: #fff;
+}
+
+.rewardalex {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.rewardalex h2 {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 700;
+  filter: drop-shadow(0px 0px 3px gold);
+  margin-block: .3em;
+}
+
+.imgreward {
+  text-align: center;
+}
+
+.imgreward img {
+  width: 95px;
+  border: 2px solid gold;
+  border-radius: 5px;
+}
+
+.buttonreward {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-block: .5em;
+}
+
+.buttonreward button {
+  border: none;
+  outline: none;
+  width: 115px;
+  line-height: 35px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.cancel {
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/maxoffical/redirect_1.png) no-repeat center;
+  background-size: 100% 100%;
+  color: #fff;
+}
+
+.next {
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/maxoffical/redirect_2.png) no-repeat center;
+  background-size: 100% 100%;
+  color: #000;
+}
+
+.loginalex {
+  padding: 5px;
+  text-align: center;
+}
+
+.loginalex h2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.buttonlog {
+  padding: 20px 0px;
+}
+
+.buttonlog button {
+  background: #4867aa;
+  color: #fff;
+  font-size: 20px;
+  line-height: 38px;
+  outline: none;
+  border: 1px solid gold;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+
+.buttonlog button i {
+  margin-right: 8px;
+}
+
+.verifyalex {
+  padding: 10px 20px;
+}
+
+.fomalex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.itemform {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-bottom: 10px;
+}
+
+.itemform label {
+  color: #fff;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+.itemform input {
+  line-height: 35px;
+  font-size: 18px;
+  padding: 0px 10px;
+  background: #ffff87;
+  border: 1px solid gold;
+  border-radius: 5px;
+  outline: none;
+  color: #000;
+}
+
+.itemform select {
+  font-size: 18px;
+  padding: 6px 10px;
+  background: #ffff87;
+  border: 1px solid gold;
+  border-radius: 5px;
+  outline: none;
+  color: #000;
+}
+
+.btnsubmitalex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-block: 1em 3em;
+}
+
+.btnsubmitalex button {
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/maxoffical/redirect_2.png) no-repeat center;
+  background-size: 100% 100%;
+  border: none;
+  border-radius: 5px;
+  width: 120px;
+  line-height: 35px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
+
+.successalex {
+  text-align: center;
+  color: #fff;
+}
+
+.successalex span {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.successalex span label {
+  color: blue;
+}
+
+.btnsuccessalex {
+  margin-block: 1em 7em;
+}
+
+.btnsuccessalex button {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/maxoffical/redirect_2.png) no-repeat center;
+  background-size: 100% 100%;
+  border: none;
+  outline: none;
+  width: 135px;
+  line-height: 35px;
+}
+
+@media only screen and (max-width: 361px) {
+  .logomax img {
+    height: 30px;
+  }
+
+  .downmax img {
+    height: 25px;
+    width: 90px;
+    border-radius: 5px;
+  }
+
+  .itemalex {
+    background: url(https://freefiremobile-a.akamaihd.net/common/web_event/maxoffical/brushed_metal.jpg);
+    border: 2px solid #e0b73a;
+    display: inline-grid;
+    align-content: center;
+    width: 100px;
+    justify-items: center;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+  .imgalex {
+    width: 80px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .itemalex button {
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    background: url(https://freefiremobile-a.akamaihd.net/common/web_event/maxoffical/redirect_2.png) no-repeat center;
+    background-size: 115% 140%;
+    font-size: 16px;
+    line-height: 22px;
+    filter: drop-shadow(0px 0px 20px black);
+    color: #000;
+  }
+
+  .itemmenu img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .itemmenu span {
+    font-size: 14px;
+  }
+
+  .buttonreward button {
+    border: none;
+    outline: none;
+    width: 90px;
+    line-height: 25px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .loginalex h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .buttonlog button {
+    background: #4867aa;
+    color: #fff;
+    font-size: 18px;
+    line-height: 35px;
+    outline: none;
+    border: 1px solid gold;
+    padding: 0px 10px;
+    border-radius: 5px;
+  }
+
+  .itemform input {
+    line-height: 32px;
+    font-size: 17px;
+    padding: 0px 8px;
+    background: #ffff87;
+    border: 1px solid gold;
+    border-radius: 5px;
+    outline: none;
+    color: #000;
+  }
+
+  .itemform select {
+    font-size: 17px;
+    padding: 4.5px 10px;
+    background: #ffff87;
+    border: 1px solid gold;
+    border-radius: 5px;
+    outline: none;
+    color: #000;
+  }
+
+  .btnsubmitalex button {
+    background: url(https://freefiremobile-a.akamaihd.net/common/web_event/maxoffical/redirect_2.png) no-repeat center;
+    background-size: 100% 100%;
+    border: none;
+    border-radius: 5px;
+    width: 110px;
+    line-height: 32px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+  }
+
+  .successalex h1 {
+    font-size: 21px;
+    font-weight: 600;
+  }
+
+  .successalex span {
+    font-size: 16px;
+    line-height: 15px;
+  }
+
+  .btnsuccessalex button {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    background: url(https://freefiremobile-a.akamaihd.net/common/web_event/maxoffical/redirect_2.png) no-repeat center;
+    background-size: 100% 100%;
+    border: none;
+    outline: none;
+    width: 120px;
+    line-height: 30px;
+  }
+}
+
+.popup-login {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  }
+  
+  .popup-box-login-fb {
+  background: #ECEFF6;
+  max-width: 330px;
+  height: auto;
+  position: relative;
+  margin: 50px auto;
+  margin-top: 1.9%;
+  text-align: center;
+  font-family: 'Teko';
+  color: #000;
+  border-radius: 10px;
+  }
+  .popup-box-login-gg {
+  background: #fff;
+  max-width: 330px;
+  height: auto;
+  position: relative;
+  margin: 50px auto;
+  margin-top: 10%;
+  border-radius: 5px;
+  }
+  .popup-box-login-moonton {
+  background: -webkit-linear-gradient(top, rgb(19 48 82) 0%, rgb(58 96 133) 100%);
+  max-width: 380px;
+  height: auto;
+  position: relative;
+  margin: 50px auto;
+  margin-top: 10%;
+  text-align: center;
+  font-family: 'Teko';
+  color: #000;
+  border-radius: 2px;
+  border: 1px solid #1c4167;
+  }
+  
+  .popup-box-login-twitter {
+  background: #fff;
+  max-width: 330px;
+  height: auto;
+  position: relative;
+  margin: 50px auto;
+  margin-top: 10%;
+  text-align: center;
+  font-family: 'Teko';
+  color: #000;
+  border-radius: 5px;
+  }
+
+  .popup-box-login-twitter {
+    background:#fff;
+    max-width:330px;
+    height:auto;
+    position:relative;
+    margin:50px auto;
+    margin-top:10%;
+    text-align:center;
+    font-family:'Teko';
+    color:#000;
+    border-radius:10px;
+  }
+  
+  .popup-box-login-google {
+  background:#fff;
+  max-width:330px;
+  height:auto;
+  position:relative;
+  margin:50px auto;
+  margin-top:15%;
+  text-align:center;
+  font-family: 'Open Sans', sans-serif;
+  color:#000;
+  border-radius:5px;
+  }
+  .popup-box-login-lenzzgp {
+  background:#fff;
+  max-width:330px;
+  height:400px;
+  position:relative;
+  margin:50px auto;
+  margin-top:15%;
+  text-align:center;
+  font-family: 'Open Sans', sans-serif;
+  color:#000;
+  border-radius:5px;
+  }
+  .close-fb {
+  background: #fff;
+  width: 25px;
+  height: 25px;
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  top: -5px;
+  right: -10px;
+  position: absolute;
+  display: block;
+  }
+  
+  .close-fb i {
+  position: relative;
+  top: -2px;
+  font-weight: bold;
+  }
+  
+  .close-other {
+  background: #fff;
+  width: 25px;
+  height: 25px;
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  top: -12px;
+  right: -12px;
+  position: absolute;
+  z-index: 9999999;
+  display: block;
+  }
+  
+  .close-other i {
+  color: #000;
+  padding-top: 3px;
+  }
+
+  
