@@ -1,0 +1,221 @@
+.header-google {
+    background: #fff;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.header-google img {
+    width: 100px;
+    padding-top: 10px;
+}
+.box-google {
+    width: 90%;
+    height: 395px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.txt-login-google {
+    color: #000;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+.txt-login-google-desc {
+    padding-top: 5px;
+    padding-Bottom: 10px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+input {
+    background: #fff;
+}
+#form {
+    width: 40vw;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.input-box.active-grey {
+    .input-1 {
+        border: 1px solid #dadce0;
+    }
+    .input-label {
+        color: #80868b;
+        top: -8px;
+        background: #fff;
+        font-size: 11px;
+        transition: 250ms;
+        svg {
+            position: relative;
+            width: 11px;
+            height: 11px;
+            top: 2px;
+            transition: 250ms;
+        }
+    }
+}
+.input-box {
+    position: relative;
+    margin: 10px 0;
+    .input-label {
+        position: absolute;
+        color: #80868b;
+        font-size: 16px;
+        font-weight: 400;
+        max-width: calc(100% - (2 * 8px));
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        left: 8px;
+        top: 13px;
+        padding: 0 8px;
+        transition: 250ms;
+        user-select: none;
+        pointer-events: none;
+        svg {
+            position: relative;
+            width: 15px;
+            height: 15px;
+            top: 2px;
+            transition: 250ms;
+        }
+    }
+    .input-1 {
+        box-sizing: border-box;
+        height: 50px;
+        width: 100%;
+        border-radius: 4px;
+        color: #202124;
+        border: 1px solid #dadce0;
+        padding: 13px 15px;
+        transition: 250ms;
+        &:focus {
+            outline: none;
+            border: 2px solid #1a73e8;
+            transition: 250ms;
+        }
+    }
+}
+
+.input-box.error {
+    .input-label {
+        color: #f44336;
+        top: -8px;
+        background: #fff;
+        font-size: 11px;
+        transition: 250ms;
+    }
+    .input-1 {
+        border: 2px solid #f44336;
+    }
+}
+.input-box.focus,
+.input-box.active {
+    .input-label {
+        color: #1a73e8;
+        top: -8px;
+        background: #fff;
+        font-size: 11px;
+        transition: 250ms;
+        svg {
+            position: relative;
+            width: 11px;
+            height: 11px;
+            top: 2px;
+            transition: 250ms;
+        }
+    }
+}
+.input-box.active {
+    .input-1 {
+        border: 2px solid #1a73e8;
+    }
+}
+.pull-right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.btn-forgot-google {
+    background: #fff;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    padding-left: 0;
+    color: #1a73e8;
+    font-size: 14.5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    letter-spacing: .25px;
+    text-align: left;
+    border: none;
+    outline: none;
+    float: left;
+}
+.notify-google {
+    width: 100%;
+    height: auto;
+    color: gray;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+.notify-google span {
+    color: #1a73e8;
+    font-weight: inherit;
+}
+.btn-create-google {
+    background: #fff;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 10px;
+    padding-left: 0;
+    color: #1a73e8;
+    font-size: 14.5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    letter-spacing: .25px;
+    text-align: left;
+    border: none;
+    outline: none;
+    float: left;
+}
+.btn-login-google {
+    background: #1a73e8;
+    width: 30%;
+    height: auto;
+    margin: 0px;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    letter-spacing: .25px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    float: right;
+}
+@media only screen and (max-width:600px) {
+    .footer-language-google,
+    .footer-menu-google {
+        margin-top: 70%;
+    }
+    .footer-language-account-google,
+    .footer-menu-account-google {
+        margin-top: 90%;
+    }
+}
